@@ -14,4 +14,4 @@
 ##效果：
 How does it look?
 ------------------------------
-![android-TABDEMO screenshot](screen/s1.gif)
+![android-TABDEMO screenshot](demo.gif)
