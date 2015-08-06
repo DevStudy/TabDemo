@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">TabDemo</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+
+
+    <!-- Tab页名称-->
+    <string name="tab_home">首页</string>
+    <string name="tab_list">好友列表</string>
+    <string name="tab_track">轨迹跟踪</string>
+    <string name="tab_mine">我</string>
+    <string name="title_activity_main_tab_fragment">TabFragmentDEMO</string>
+</resources>

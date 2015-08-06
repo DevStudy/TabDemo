@@ -1,0 +1,36 @@
+<resources>
+
+    <style name="AppBaseTheme" parent="android:Theme.Light" />
+    <style name="AppTheme" parent="AppBaseTheme" />
+
+
+    <!--App菜单下方主Tab的图标样式-->
+    <style name="MainTabIconStyle" parent="WarpStyle">
+        <item name="android:layout_centerHorizontal">true</item>
+    </style>
+    <!--App菜单下方主Tab的文本样式-->
+    <style name="MainTabTextStyle">
+        <item name="android:textSize">9sp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_centerHorizontal">true</item>
+    </style>
+    <!--App菜单下方主Tab的容器样式 -->
+    <style name="MainTabBoxStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:gravity">center</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+
+    <!--最基本的包裹内容样式-->
+    <style name="WarpStyle">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+    </style>
+
+
+</resources>

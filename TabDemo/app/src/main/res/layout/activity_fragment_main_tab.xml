@@ -1,0 +1,64 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:background="@color/oak_black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:text="this is top action bar."
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+    <!-- 左右滑动容器-->
+    <TabHost
+        android:id="@android:id/tabhost"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <!-- 内容隐藏容器？-->
+            <FrameLayout
+                android:id="@android:id/tabcontent"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="#FFFFFF"
+                android:visibility="gone" >
+            </FrameLayout>
+            <com.jfeinstein.jazzyviewpager.JazzyViewPager
+                android:id="@+id/jazzy_pager"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="0dp">
+            </com.jfeinstein.jazzyviewpager.JazzyViewPager>
+            <!-- 底部菜单上的细黑线-->
+            <LinearLayout
+                android:layout_height="0.5dp"
+                android:layout_width="fill_parent"
+                android:background="@color/red"
+                >
+            </LinearLayout>
+            <!-- 底部菜单-->
+            <TabWidget
+                android:background="@color/white"
+                android:id="@android:id/tabs"
+                android:tabStripEnabled="false"
+                android:divider="@null"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                />
+        </LinearLayout>
+
+    </TabHost>
+</LinearLayout>
+
